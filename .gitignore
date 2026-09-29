@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.tmp
+*.bak
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# New local experiment outputs are ignored by default. The reviewed outputs
+# already stored under results/ remain tracked.
+model/CASE_*.pkl
+model/hourly_milp_*.csv
+model/five_strategy_*.csv
+model/outputs/

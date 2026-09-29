@@ -1,0 +1,796 @@
+{
+  "latitude": 38.8,
+  "longitude": 121.8,
+  "start_date": "2025-03-01",
+  "end_date": "2025-12-31",
+  "price_csv": "data\\liaoning_spot_prices_api_2025\\liaoning_spot_hourly_2025.csv",
+  "row_count": 7344,
+  "missing": {
+    "wind_speed_forecast_m_s": 0,
+    "wind_speed_actual_m_s": 0,
+    "wave_height_forecast_m": 0,
+    "wave_height_actual_m": 0
+  },
+  "items": [
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-01",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-04-01",
+        "end_date": "2025-05-01"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-05-02",
+      "end_date": "2025-06-01",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-05-02",
+        "end_date": "2025-06-01"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-06-02",
+      "end_date": "2025-07-02",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-06-02",
+        "end_date": "2025-07-02"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-07-03",
+      "end_date": "2025-08-02",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-07-03",
+        "end_date": "2025-08-02"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-08-03",
+      "end_date": "2025-09-02",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-08-03",
+        "end_date": "2025-09-02"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-09-03",
+      "end_date": "2025-10-03",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-09-03",
+        "end_date": "2025-10-03"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-10-04",
+      "end_date": "2025-11-03",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-10-04",
+        "end_date": "2025-11-03"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-11-04",
+      "end_date": "2025-12-04",
+      "rows": 744,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-11-04",
+        "end_date": "2025-12-04"
+      }
+    },
+    {
+      "name": "wind_forecast",
+      "start_date": "2025-12-05",
+      "end_date": "2025-12-31",
+      "rows": 648,
+      "grid_latitude": 38.835007,
+      "grid_longitude": 121.75781,
+      "url": "https://historical-forecast-api.open-meteo.com/v1/forecast",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "gfs_global",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-12-05",
+        "end_date": "2025-12-31"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-01",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-04-01",
+        "end_date": "2025-05-01"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-05-02",
+      "end_date": "2025-06-01",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-05-02",
+        "end_date": "2025-06-01"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-06-02",
+      "end_date": "2025-07-02",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-06-02",
+        "end_date": "2025-07-02"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-07-03",
+      "end_date": "2025-08-02",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-07-03",
+        "end_date": "2025-08-02"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-08-03",
+      "end_date": "2025-09-02",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-08-03",
+        "end_date": "2025-09-02"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-09-03",
+      "end_date": "2025-10-03",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-09-03",
+        "end_date": "2025-10-03"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-10-04",
+      "end_date": "2025-11-03",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-10-04",
+        "end_date": "2025-11-03"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-11-04",
+      "end_date": "2025-12-04",
+      "rows": 744,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-11-04",
+        "end_date": "2025-12-04"
+      }
+    },
+    {
+      "name": "wind_actual",
+      "start_date": "2025-12-05",
+      "end_date": "2025-12-31",
+      "rows": 648,
+      "grid_latitude": 38.800003,
+      "grid_longitude": 121.80002,
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wind_speed_10m,wind_direction_10m",
+        "models": "era5_seamless",
+        "wind_speed_unit": "ms",
+        "start_date": "2025-12-05",
+        "end_date": "2025-12-31"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-01",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-04-01",
+        "end_date": "2025-05-01"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-05-02",
+      "end_date": "2025-06-01",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-05-02",
+        "end_date": "2025-06-01"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-06-02",
+      "end_date": "2025-07-02",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-06-02",
+        "end_date": "2025-07-02"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-07-03",
+      "end_date": "2025-08-02",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-07-03",
+        "end_date": "2025-08-02"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-08-03",
+      "end_date": "2025-09-02",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-08-03",
+        "end_date": "2025-09-02"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-09-03",
+      "end_date": "2025-10-03",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-09-03",
+        "end_date": "2025-10-03"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-10-04",
+      "end_date": "2025-11-03",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-10-04",
+        "end_date": "2025-11-03"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-11-04",
+      "end_date": "2025-12-04",
+      "rows": 744,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-11-04",
+        "end_date": "2025-12-04"
+      }
+    },
+    {
+      "name": "wave_forecast",
+      "start_date": "2025-12-05",
+      "end_date": "2025-12-31",
+      "rows": 648,
+      "grid_latitude": 38.75,
+      "grid_longitude": 121.75,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "ncep_gfswave025",
+        "start_date": "2025-12-05",
+        "end_date": "2025-12-31"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-01",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-04-01",
+        "end_date": "2025-05-01"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-05-02",
+      "end_date": "2025-06-01",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-05-02",
+        "end_date": "2025-06-01"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-06-02",
+      "end_date": "2025-07-02",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-06-02",
+        "end_date": "2025-07-02"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-07-03",
+      "end_date": "2025-08-02",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-07-03",
+        "end_date": "2025-08-02"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-08-03",
+      "end_date": "2025-09-02",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-08-03",
+        "end_date": "2025-09-02"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-09-03",
+      "end_date": "2025-10-03",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-09-03",
+        "end_date": "2025-10-03"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-10-04",
+      "end_date": "2025-11-03",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-10-04",
+        "end_date": "2025-11-03"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-11-04",
+      "end_date": "2025-12-04",
+      "rows": 744,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-11-04",
+        "end_date": "2025-12-04"
+      }
+    },
+    {
+      "name": "wave_actual",
+      "start_date": "2025-12-05",
+      "end_date": "2025-12-31",
+      "rows": 648,
+      "grid_latitude": 39.0,
+      "grid_longitude": 122.0,
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "params": {
+        "latitude": 38.8,
+        "longitude": 121.8,
+        "timezone": "Asia/Shanghai",
+        "cell_selection": "sea",
+        "hourly": "wave_height,wave_direction,wave_period",
+        "models": "era5_ocean",
+        "start_date": "2025-12-05",
+        "end_date": "2025-12-31"
+      }
+    }
+  ]
+}

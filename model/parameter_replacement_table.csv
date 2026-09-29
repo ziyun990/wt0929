@@ -1,0 +1,41 @@
+category,parameter,old_value,new_value,unit,source,implementation_note
+exchange,EUR_CNY,,7.7248,CNY/EUR,2024 annual average,Nominal currency conversion only
+exchange,GBP_CNY,,9.2118,CNY/GBP,2024 annual average,Nominal currency conversion only
+component,gearbox_pm_hours,8,8,h,Carroll et al. 2015,Minor repair used as PM proxy
+component,gearbox_pm_material_cost,6475,965.60,CNY,Carroll et al. 2015,EUR125 converted to CNY
+component,gearbox_cm_hours,22,22,h,Carroll et al. 2015,Major repair used as CM proxy
+component,gearbox_cm_material_cost,129500,19312.00,CNY,Carroll et al. 2015,EUR2500 converted to CNY
+component,generator_pm_hours,7,7,h,Carroll et al. 2015,Minor repair used as PM proxy
+component,generator_pm_material_cost,8295,1235.97,CNY,Carroll et al. 2015,EUR160 converted to CNY
+component,generator_cm_hours,24,24,h,Carroll et al. 2015,Major repair used as CM proxy
+component,generator_cm_material_cost,181300,27036.80,CNY,Carroll et al. 2015,EUR3500 converted to CNY
+component,blade_pm_hours,9,9,h,Carroll et al. 2015,Minor repair used as PM proxy
+component,blade_pm_material_cost,8806,1313.22,CNY,Carroll et al. 2015,EUR170 converted to CNY
+component,blade_cm_hours,21,21,h,Carroll et al. 2015,Major repair used as CM proxy
+component,blade_cm_material_cost,77700,11587.20,CNY,Carroll et al. 2015,EUR1500 converted to CNY
+component,main_bearing_pm_hours,6,10,h,CL-Windcon D4.5,Main-shaft proxy
+component,main_bearing_pm_material_cost,16000,7724.80,CNY,CL-Windcon D4.5,EUR1000 converted to CNY
+component,main_bearing_cm_hours,12,36,h,CL-Windcon D4.5,Main-shaft proxy
+component,main_bearing_cm_material_cost,55000,108147.20,CNY,CL-Windcon D4.5,EUR14000 converted to CNY
+turbine,rated_power,12,10,MW,CL-Windcon D4.5,DTU 10 MW reference turbine
+turbine,rotor_diameter,154,178.3,m,CL-Windcon D4.5,DTU 10 MW reference turbine
+turbine,hub_height,100,119,m,CL-Windcon D4.5,DTU 10 MW reference turbine
+turbine,cut_in_wind_speed,3,4,m/s,CL-Windcon D4.5,DTU 10 MW reference turbine
+turbine,rated_wind_speed,9,11.4,m/s,CL-Windcon D4.5,DTU 10 MW reference turbine
+turbine,cut_out_wind_speed,13,25,m/s,CL-Windcon D4.5,DTU 10 MW reference turbine
+layout,column_spacing,7D at D154,7D at D178.3,m,CL-Windcon D4.5,1248.1 m
+layout,row_spacing,7D at D154,8D at D178.3,m,CL-Windcon D4.5,1426.4 m
+vessel,vessel_speed,13.5,26,kn,Dalgic et al. 2015,CTV-1
+vessel,base_distance,15,37.04,km,Dalgic et al. 2015,20 nautical miles
+vessel,fuel_consumption,,384,L/h,Dalgic et al. 2015,CTV-1
+vessel,fuel_price,,8.29062,CNY/L,Dalgic et al. 2015,GBP0.9/L converted to CNY
+vessel,fuel_cost_per_sailing_hour,2000,3183.59808,CNY/h,Dalgic et al. 2015,Consumption multiplied by fuel price
+vessel,daily_charter,17500,32241.30,CNY/d,Dalgic et al. 2015,GBP3500/d converted to CNY
+vessel,technician_capacity,,12,person,Dalgic et al. 2015,Implemented as hourly crew capacity
+vessel,max_daily_turbine_visits,,6,turbine/d,Dalgic et al. 2015,Unique turbine visit limit
+work,day_start,5,8,hour,Dalgic et al. 2015,08:00
+work,day_end,21,20,hour,Dalgic et al. 2015,20:00
+work,standard_shift,8,12,h/d,Dalgic et al. 2015,Includes sailing and maintenance
+labour,person_day_rate,,3862.40,CNY/person-day,CL-Windcon D4.5,EUR500 converted to CNY
+labour,person_hour_rate,300,321.8667,CNY/person-hour,Derived,Person-day rate divided by 12 h
+labour,overtime_rate,875,0,CNY/h,Not available in selected references,No separate overtime charge in this version
